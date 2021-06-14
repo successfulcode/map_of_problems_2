@@ -1,0 +1,45 @@
+.ListOfProblemsItem {
+  max-width: 160px;
+  padding: 5px 5px 5px;
+  img {
+    display: block;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+  p {
+    word-wrap: break-word;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+.cardBody {
+  padding: 5px;
+  min-height: 110px;
+  max-height: 110px;
+  max-width: 100px;
+  min-width: 100px;
+  cursor: pointer;
+  position: relative;
+  span {
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+  }
+}
+
+.cardText {
+  padding: 5px;
+}
+
+.displayNone {
+  display: none;
+}

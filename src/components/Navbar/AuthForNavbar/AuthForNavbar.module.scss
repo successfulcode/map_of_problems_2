@@ -1,0 +1,36 @@
+.outItems {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: 11.26px;
+  span {
+    font-size: 11.26px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  span:hover {
+    background-color: #18bc9c;
+  }
+  i {
+    margin-right: 3px;
+  }
+}
+
+.inItems {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: 11.26px;
+  span {
+    font-size: 11.26px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  span:hover {
+    background-color: #18bc9c;
+  }
+  i {
+    margin-left: 3px;
+  }
+}

@@ -1,0 +1,36 @@
+.HamburgerMeniu {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 30px;
+  position: relative;
+  span {
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px 10px 20px;
+  }
+}
+
+.navlink {
+  color: #212529;
+}
+
+.navlinkActive {
+  color: #18bc9c;
+}
+
+.navlink:hover {
+  color: #18bc9c;
+  text-decoration: none;
+}
+
+.activeColor {
+  color: #18bc9c;
+}
